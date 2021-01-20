@@ -1,0 +1,13 @@
+import React, {Component} from 'react'
+import './About.css'
+
+
+export default class About extends Component {
+    render () {
+    return (
+            <div className="about-img">
+                <img src="./images/Facu.jpg" alt="profile" />
+            </div>
+    )
+}
+}
