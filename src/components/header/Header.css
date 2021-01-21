@@ -16,13 +16,14 @@
   }
 
   .title-name {
-    font-family: 'Yellowtail', cursive;
+    /* font-family: 'Yellowtail', cursive; */
     color: #4361ee !important;
     display: flex;
     justify-content: flex-start;
     margin-left: 30px;
     text-decoration: none !important;
-    font-size: 50px !important;
+    font-size: 40px !important;
+    font-weight: 800;
   }
   
   .list-options {

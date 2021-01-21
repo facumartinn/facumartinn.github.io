@@ -1,29 +1,33 @@
 import React, { Component } from 'react'
-import './Welcome.css'
+import '../../style/app.css'
+//import './Welcome.css'
 import  {Spring} from 'react-spring/renderprops'
-import Typewriter from 'typewriter-effect'
 import Button from '../Button'
 
 
 export default class Welcome extends Component {
     render() {
         return (
-            <div className='welcome'>
-                <Spring from={{ opacity: 0}} to={{opacity: 1}}>
+            <div className='md:container md:mx-auto md:box-border mt-40 flex flex-col '>
+                <Spring from={{ opacity: 0}} to={{opacity: 1}} config={{delay: 1000}}>
                     {props => (
                         <div style={props}>
-                            <h1 className="title">HE<br></br>LLO!</h1>
+                            <h1 className="home-name ml-10">HE<br/>LLO!<br /></h1>
+                        </div>
+                    )}
+                </Spring>
+
+                <Spring from={{ opacity: 0}} to={{opacity: 1}} config={{delay: 2000}}>
+                    {props => (
+                        <div style={props}>
+                            <p className="mt-5 ml-10">my name is Facu.<br /> Im Full Stack Developer, with a great sense of design. Blending simplicity with usability.<br /><br /></p>
                         </div>
                     )}
                 </Spring>
                 
-                <Typewriter  options={{delay: 25}} onInit={(typewriter =>  {
-                    typewriter.typeString('my name is Facu.<br> Im Full Stack Developer, with a great sense of design. Blending simplicity with usability.<br>').start()             
-                })}/>
-                
-                <Spring from={{ opacity: 0}} to={{opacity: 1}} config={{delay: 4000}}>
+                <Spring from={{ opacity: 0}} to={{opacity: 1}} config={{delay: 3000}}>
                     {props => (
-                        <div style={props}>
+                        <div className="ml-10" style={props}>
                             <Button type='button'>Contact me</Button>
                         </div>
                     )}

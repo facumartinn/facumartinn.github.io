@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import './App.css'
+// import './App.css'
+import '../../style/app.css'
 import { BrowserRouter } from 'react-router-dom'
 import Header from '../header/Header'
 import Footer from '../footer/Footer'

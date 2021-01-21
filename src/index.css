@@ -1,14 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 
-body {
-  overflow: hidden;
-  margin: 0;
-  font-family: 'Syne', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #ffffff;
+
+.cursive {
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
 }
 
-code {
-  font-family: 'IBM Plex Sans', sans-serif;
+.prose-img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1px;
+}
+
+.home-name {
+  font-size: 110px;
+  line-height: 6rem;
+  font-weight: 800;
 }
