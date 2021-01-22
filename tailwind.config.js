@@ -4,10 +4,13 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    textColor: {
+      'black': '#000000',
+      'focus': '#4361ee',
+      'danger': '#e3342f',
+    },
     colors: {
-      black: "#000000",
       gray: colors.coolGray,
-      blue: colors.lightBlue,
       red: colors.rose,
       pink: colors.fuchsia,
     },
@@ -17,6 +20,7 @@ module.exports = {
     },
     extend: {
       spacing: {
+        'welcome': '6rem',
         '128': '32rem',
         '144': '36rem',
       },
@@ -26,6 +30,7 @@ module.exports = {
     }
   },
   variants: {
+    animation: ['responsive', 'motion-safe', 'motion-reduce'],
     extend: {},
   },
   plugins: []

@@ -1,42 +1,3 @@
-/* RIGHT FOOTER */
-
-/* .RightFooter {
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    padding-left: 15px;
-    width: 50px;
-    bottom: 0px;
-    right: 20px;
-}
-.mail-list {
-    list-style: none;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
-    align-items: center;
-}
-.mail-list li {
-    padding-top: 15px;
-}
-.mail-info {
-    text-decoration: none;
-    color: #156dbe;
-    font-size: 15px;
-    font-weight: 600;
-}
-.rotate {
-    -webkit-transform:rotate(90deg);
-    -moz-transform:rotate(90deg);
-    -o-transform:rotate(90deg);
-    writing-mode:tb-rl;
-    white-space:nowrap;
-    width: 20px;
-}
-*/
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -60,9 +21,6 @@
 
   /* LEFT FOOTER */
 
-  .Center {
-    display: flex;
-  }
   .Footer {
     width: 100%;
     z-index: 10;
