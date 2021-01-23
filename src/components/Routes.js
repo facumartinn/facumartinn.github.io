@@ -4,7 +4,6 @@ import { Route, Switch } from 'react-router-dom'
 import About from './about/About'
 import Work from './work/Work'
 import Contact from './contact/Contact'
-import Resume from './resume/Resume'
 import Welcome from './welcome/Welcome'
 
 
@@ -16,7 +15,6 @@ export default class Routes extends Component {
                     <Route path="/about" component={About}></Route>
                     <Route path="/work" component={Work}></Route>
                     <Route path="/contact" component={Contact}></Route>
-                    <Route path="/resume" component={Resume}></Route>
                 </Switch>
         )
     }

@@ -21,10 +21,10 @@ const titleTo = {width: 0,
 export default class Welcome extends Component {
     render() {
         return (
-            <div className='overflow-hidden md:container md:mx-auto md:box-border mt-32 flex flex-col '>
+            <div className='overflow-hidden md:container md:mx-auto md:box-border mt-10 md:ml-10 flex flex-col '>
                 <Spring from={titleFrom} 
                         to={titleTo}  
-                        config={{delay: 2400}}>
+                        config={{delay: 1600}}>
                     {props => (
                         <div style={props}>
                             <h1 className="home-name ml-6 text-8xl ">HE<br/>LLO!<br /></h1>
@@ -32,14 +32,14 @@ export default class Welcome extends Component {
                     )}
                 </Spring>
 
-                <Spring from={{opacity:0}} to={{opacity:1}} config={{delay: 2600}}>
+                <Spring from={{opacity:0}} to={{opacity:1}} config={{delay: 1600}}>
                     {props => (
                         <div style={props}>
                             <p className="mt-5 ml-6 text-base sm:text-lg">  my name is Facu.</p>
                         </div>
                     )}
                 </Spring>
-                <Spring from={{opacity:0}} to={{opacity:1}} config={{delay: 2800}}>
+                <Spring from={{opacity:0}} to={{opacity:1}} config={{delay: 1800}}>
                     {props => (
                         <div style={props}>
                             <p className="mt-5 ml-6 text-base sm:text-lg">I'm a Full Stack Developer, with a great sense of design. Blending simplicity with usability.<br /><br /></p>
@@ -47,7 +47,7 @@ export default class Welcome extends Component {
                     )}
                 </Spring>
                 
-                <Spring from={{ opacity: 0}} to={{opacity: 1}} config={{delay: 3000}}>
+                <Spring from={{ opacity: 0}} to={{opacity: 1}} config={{delay: 2000}}>
                     {props => (
                         <div className="ml-6" style={props}>
                             <Button type='button'>Contact me</Button>
