@@ -27,7 +27,7 @@ export default function Navbar({ fixed }) {
                                         
                                         <NavLink className="logo flex flex-row justify-center text-3xl font-black tracking-tighter" activeClassName="active-title underline" exact to="/">Facu</NavLink>
                                         
-                                        <button className="text-white cursor-pointer text-3xl leading-none px-6 py-1  bg-transparent block md:hidden outline-none focus:outline-none" type="button"
+                                        <button className="text-white cursor-pointer text-3xl leading-none px-2 py-1  bg-transparent block md:hidden outline-none focus:outline-none" type="button"
                                                 onClick={() => setNavbarOpen(!navbarOpen)}>
                                                     <FontAwesomeIcon icon={["fa", "bars"]}></FontAwesomeIcon>
                                         </button>

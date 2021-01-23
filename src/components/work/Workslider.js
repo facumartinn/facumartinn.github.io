@@ -40,7 +40,7 @@ export default class SimpleSlider extends Component {
           <Spring from={{opacity:0}} to={{opacity:1}} config={{delay: 500}}>
                   {props => (
                       <div className="w-auto m-4 md:w-1/2 m-0 flex flex-col items-center justify-center" style={props}>
-                          <h1 className="mb-4 sm:mb-6 text-2xl sm:text-5xl " >Picking App</h1>
+                          <h1 className="mb-4 sm:mb-6 text-2xl sm:text-4xl font-black" >Picking App</h1>
                           <p className="text-xs sm:text-sm text-center">Web app para armar pedidos en un depósito de mercadería de un supermercado online. TuAlmacen.com.ar es un supermercado online de la ciudad de mar del plata. Otras de las tecnologías utilizadas fueron MySQL y Express.JS</p>
                           <ul className="w-auto mb-0 mt-0 tech-list no-underline list-none flex flex-wrap flex-row justify-center items-center text-2xl sm:text-4xl">
                               <li className="p-4"><FontAwesomeIcon icon={["fab", "js-square"]}>Node.js</FontAwesomeIcon></li>
@@ -58,7 +58,7 @@ export default class SimpleSlider extends Component {
             
 
             <div className="w-auto m-4 md:w-1/2 m-0 flex flex-col items-center justify-center">
-              <h1 className="mb-4 sm:mb-6 text-2xl sm:text-5xl " >One Big Box</h1>
+              <h1 className="mb-4 sm:mb-6 text-2xl sm:text-4xl font-black" >One Big Box</h1>
               <p className="text-xs sm:text-sm text-center">Sitio E-Commerce de venta de planes alimenticios personalizados, para resolver de manera fácil, rápida y saludable las comidas con ingredientes saludables. Este sitio fue el proyecto final del curso Full-Stack de Digital House.</p>
               <ul className="w-auto mb-0 mt-0 tech-list no-underline list-none flex flex-wrap flex-row justify-center items-center text-2xl sm:text-4xl">
               <li className="p-4"><FontAwesomeIcon icon={["fab", "js-square"]}>Node.js</FontAwesomeIcon></li>
