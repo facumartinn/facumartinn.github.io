@@ -362,7 +362,7 @@ ul {
  */
 
 html {
-  font-family: Syne, sans-serif; /* 1 */
+  font-family: Inter, sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -6254,7 +6254,7 @@ video {
 }
 
 .font-sans {
-  font-family: Syne, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .font-serif {
@@ -26626,7 +26626,7 @@ video {
   }
 
   .sm\:font-sans {
-    font-family: Syne, sans-serif;
+    font-family: Inter, sans-serif;
   }
 
   .sm\:font-serif {
@@ -46955,7 +46955,7 @@ video {
   }
 
   .md\:font-sans {
-    font-family: Syne, sans-serif;
+    font-family: Inter, sans-serif;
   }
 
   .md\:font-serif {
@@ -67284,7 +67284,7 @@ video {
   }
 
   .lg\:font-sans {
-    font-family: Syne, sans-serif;
+    font-family: Inter, sans-serif;
   }
 
   .lg\:font-serif {
@@ -87613,7 +87613,7 @@ video {
   }
 
   .xl\:font-sans {
-    font-family: Syne, sans-serif;
+    font-family: Inter, sans-serif;
   }
 
   .xl\:font-serif {
@@ -107942,7 +107942,7 @@ video {
   }
 
   .\32xl\:font-sans {
-    font-family: Syne, sans-serif;
+    font-family: Inter, sans-serif;
   }
 
   .\32xl\:font-serif {

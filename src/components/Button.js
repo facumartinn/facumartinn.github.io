@@ -5,7 +5,6 @@ import styled from 'styled-components'
 const StyledButton = styled.button`
     border: 2px solid #000000;
     color: #000000;
-    font-family: 'B612', sans-serif;
     border-radius: 0;
     transition: all 0.2s;
     padding: 15px 25px;
