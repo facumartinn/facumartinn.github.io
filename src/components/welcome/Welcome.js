@@ -44,7 +44,7 @@ export default class Welcome extends Component {
                 <Spring from={{opacity:0}} to={{opacity:1}} config={{delay: 1800}}>
                     {props => (
                         <div style={props}>
-                            <p className="font-sans mt-10 mx-12 text-base sm:text-lg">I'm a Full Stack Developer based in Buenos Aires, Arg., specializing in building websites with a high sense of design.<br /><br /></p>
+                            <p className="font-sans mt-10 mx-12 text-base sm:text-lg">I'm a Full Stack Developer based in Buenos Aires, Arg., specializing in building websites with a high sense of design. I'm currently working at Lenovo as a Web Developer.<br /><br /></p>
                         </div>
                     )}
                 </Spring>

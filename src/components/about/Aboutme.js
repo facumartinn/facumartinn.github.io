@@ -14,8 +14,10 @@ export default class About extends Component {
             {props => (
             <div style={props} className="font-sans text-center sm:text-left w-2/3 sm:w-3/6 text-sm md:text-2xl text-black">
                 <p>Hello! I'm Facundo Martin, a Full Stack Developer, based in Buenos Aires, Argentina.<br /><br /> 
+
                     I started the Development journey back in 2020, and since then I never stopped. I really enjoy the design side of things, so I always try to pursue the mix between a good, simple design and a high sense of usability.
                     <br />
+                    I'm currently working as a Web Developer at Lenovo.
                 </p>
                 <p className="text-xs sm:text-lg mb-6"><br />Here are a few technologies that I've been working with recently:</p>
 
