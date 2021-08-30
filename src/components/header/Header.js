@@ -61,7 +61,7 @@ export default function Navbar({ fixed }) {
                             <Spring from={{opacity: 0, x:100}} to={{opacity:1, x:0}} config={{delay: 1400}}>
                                     {props => (
                                         <div style={props}>
-                                            <li className="py-4 md:py-0" ><a className="flex items-center no-underline px-3 py-2 text-base" onClick={() => setNavbarOpen(!navbarOpen)} href="https://drive.google.com/file/d/1SOoCpuer3UBm1e9sH2roUZ3iNrWc3bFH/view?usp=sharing"  target="_blank" rel="noreferrer"><Button className="ml-2 hvr-grow" type="button">Resume</Button></a></li>
+                                            <li className="py-4 md:py-0" ><a className="flex items-center no-underline px-3 py-2 text-base" onClick={() => setNavbarOpen(!navbarOpen)} href="https://drive.google.com/file/d/1WrmICg7yqqJeP91jR9QR3PHmcJWuGK7u/view?usp=sharing"  target="_blank" rel="noreferrer"><Button className="ml-2 hvr-grow" type="button">Resume</Button></a></li>
                                         </div>
                                     )}
                             </Spring>
